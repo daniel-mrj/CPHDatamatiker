@@ -33,9 +33,9 @@ void draw(){
  y = circleSize*rowCounter;
  
  if (counter == 0) {
-   red = int(random(0,256));
-   green = int(random(0,256));
-   blue = int(random(0,256));
+   red = int(random(0,255));
+   green = int(random(0,255));
+   blue = int(random(0,255));
  }
  
  // Un-comment this line after completing step 6.a 
